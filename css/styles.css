@@ -936,3 +936,31 @@ textarea {
   display: flex;
   justify-content: center;
 }
+
+/* +++++++++++++++++++++++++++++++++++++ */
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.icon-cross{
+
+
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+.menu-button.is-open .icon-meny {
+  display: none;
+}
+
+.icon-meny {
+}

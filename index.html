@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
 <body class="site-body">
@@ -21,6 +22,12 @@
     <div class="container header-nav">
       <nav class="navigation">
         <a class="header-link header-logo link" href="./index.html"><span class="first-leters">Web</span>Studio</a>
+        <button type="button" class="menu-button is-open js-menu-container" aria-expanded="false" aria-controls="menu-container">
+          <svg width="30" height="19" aria-label="mobile menu switch">
+            <use class="icon-cross js-open-menu" href="./images/icons.svg#icon-mail"></use>
+            <use class="icon-meny js-close-menu" href="./images/icons.svg#icon-vector"></use>
+          </svg>
+        </button>
         <ul class="header-list list">
           <li class="item"><a class="header-link link current" href="./index.html">Studio</a></li>
           <li class="item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
@@ -366,6 +373,7 @@
 
 
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
