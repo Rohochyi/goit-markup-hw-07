@@ -20,8 +20,8 @@
     letter-spacing: 0.02em;
     color: var(--first-color);
     display: block;
-padding-top: 24px;
-padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     transition: color 250ms var(--timing-function);
   }
 
@@ -84,10 +84,20 @@ padding-bottom: 24px;
   .team {
   }
 
-  .footer-container {
-    flex-direction: row;
-  }
   .footer-container-logo {
     margin-right: 24px;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 108px;
+  }
+
+  .subscrible {
+
+}
+
 }

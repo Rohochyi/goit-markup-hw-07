@@ -87,7 +87,6 @@ img {
 .header > .container {
   display: flex;
   height: auto;
-
 }
 
 .header-list {
@@ -97,8 +96,6 @@ img {
 .current {
   color: var(--brand-color);
 }
-
-
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -111,8 +108,8 @@ img {
   width: auto;
   height: auto;
   margin-right: 76px;
- padding-top: 24px;
-    padding-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .first-leters {
@@ -556,10 +553,6 @@ img {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: #31d0aa;
-}
-
-.subscrible {
-  /* margin-left: auto; */
 }
 
 .subscribe-form {
