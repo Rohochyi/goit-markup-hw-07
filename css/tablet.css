@@ -85,7 +85,6 @@
   }
 
   .footer-container-logo {
-    margin-right: 24px;
   }
 
   .mob-menu {
@@ -95,9 +94,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .footer-container {
+    width: 552px;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 108px;
   }
 
   .subscrible {

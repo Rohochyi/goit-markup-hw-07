@@ -115,13 +115,14 @@
 
     gap: 24px;
   }
-}
 
-.footer-container {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  .footer-container {
 
-.subscrible {
-      margin-left: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .subscrible {
+    margin-left: auto;
+  }
 }

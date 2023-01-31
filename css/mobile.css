@@ -15,6 +15,13 @@
   }
 }
 
+.mob-menu.is-open {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+
+}
+
 .menu-open {
   width: 32px;
   height: 22px;
