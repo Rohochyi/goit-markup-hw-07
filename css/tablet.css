@@ -87,6 +87,10 @@
   .footer-container-logo {
     margin-right: 24px;
   }
+
+  .mob-menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -97,7 +101,5 @@
   }
 
   .subscrible {
-
-}
-
+  }
 }
