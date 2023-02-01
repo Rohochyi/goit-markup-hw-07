@@ -90,6 +90,9 @@
   .mob-menu {
     display: none;
   }
+  .menu-open {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {

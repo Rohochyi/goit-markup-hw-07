@@ -23,6 +23,9 @@
 }
 
 .menu-open {
+  position: absolute;
+  top: 25px;
+right: 17px;
   width: 32px;
   height: 22px;
   padding: 0;
@@ -35,6 +38,9 @@
 }
 
 .mob-menu {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   position: fixed;
   display: flex;
   flex-direction: column;
