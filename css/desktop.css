@@ -69,11 +69,6 @@
     margin-bottom: 8px;
   }
 
-  .future-icon {
-    /* align-items: center;
-  justify-content: center; */
-  }
-
   .feature-tile {
     font-weight: 500;
     font-size: 20px;
@@ -112,7 +107,6 @@
 
   .customers-list {
     flex-wrap: nowrap;
-
     gap: 24px;
   }
 

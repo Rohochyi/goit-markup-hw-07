@@ -85,6 +85,29 @@
   }
 
   .footer-container-logo {
+    margin-right: 22px;
+  }
+
+  .footer-logo,
+  .soc-text,
+  .subscrible-text {
+    text-align: left;
+  }
+
+  .media-soc {
+    margin-bottom: 0;
+  }
+  .subscribe-form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .subscrible {
+    flex-direction: row;
+  }
+
+  .subscribe-input {
+    margin-right: 24px;
   }
 
   .mob-menu {
@@ -100,8 +123,5 @@
     width: 552px;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  .subscrible {
   }
 }
