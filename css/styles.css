@@ -128,7 +128,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people_office_mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -137,6 +137,22 @@ img {
   margin-right: auto;
   padding-top: 112px;
   padding-bottom: 112px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero {
+    background: var(--first-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people_office_mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .hero-title {

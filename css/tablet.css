@@ -64,25 +64,58 @@
   }
 
   .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people_office_tablet.jpg);
     padding-top: 112px;
     padding-bottom: 108px;
   }
 
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background: var(--first-color);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people_office_tablet@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
   .hero-title {
-    max-width: 496px;
+    max-width: 526px;
     font-size: 56px;
+    margin-bottom: 40px;
   }
 
   .feature-tile {
     text-align: left;
   }
 
+  .feature-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 72px 24px;
+  }
+  .feature-item {
+    width: calc((100% - 24px) / 2);
+  }
+
   .team-list {
     column-gap: 24px;
   }
 
-  .team {
-  }
+  /* .team {
+  } */
 
   .footer-container-logo {
     margin-right: 22px;

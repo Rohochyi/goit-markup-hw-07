@@ -70,9 +70,6 @@
   transition: background-color 250ms var(--timing-function);
 }
 
-.mob-list {
-}
-
 .mob-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -86,8 +83,7 @@
 .current {
   color: var(--brand-color);
 }
-.mob-menu-contact {
-}
+
 .mob-menu-tel {
   font-weight: 700;
   font-size: 36px;
@@ -109,9 +105,3 @@
   display: flex;
   justify-content: space-between;
 }
-/* .soc-item {
-}
-.soc-link {
-}
-.soc-icon {
-} */
