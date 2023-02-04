@@ -131,4 +131,19 @@
   .subscrible {
     margin-left: auto;
   }
+
+  /* --------PORTFOLIO----------- */
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-list {
+    row-gap: 48px;
+  }
+
+  .filter-list {
+    display: flex;
+    margin-bottom: 96px;
+  }
 }

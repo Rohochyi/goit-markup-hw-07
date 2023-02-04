@@ -70,9 +70,10 @@
   transition: background-color 250ms var(--timing-function);
 }
 
-.mob-item:not(:last-child) {
+.mob-item {
   margin-bottom: 40px;
 }
+
 .mob-link {
   font-weight: 600;
   font-size: 36px;
@@ -104,4 +105,5 @@
 .mob-menu-soc {
   display: flex;
   justify-content: space-between;
+  max-width: 320px;
 }
