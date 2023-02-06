@@ -6,6 +6,10 @@
   .header > .container {
     display: flex;
   }
+
+  .form-order {
+    width: 408px;
+  }
 }
 
 .mob-menu.is-open {
@@ -122,7 +126,7 @@
   }
 
   .form-input {
-    width: 252px;
+    /* width: 252px; */
   }
 
   .form-field > .form-textarea {
