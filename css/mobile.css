@@ -107,3 +107,25 @@
   justify-content: space-between;
   max-width: 320px;
 }
+
+@media screen and (max-width: 420px) {
+  .modal {
+    min-width: 300px;
+  }
+  .form-order {
+    width: 300px;
+  }
+
+  .form-title {
+    width: 254px;
+    font-size: 12px;
+  }
+
+  .form-input {
+    width: 252px;
+  }
+
+  .form-field > .form-textarea {
+    width: 252px;
+  }
+}
