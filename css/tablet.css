@@ -46,11 +46,10 @@
   }
 
   .contact {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin-left: auto;
-    gap: 4px;
     padding-top: 24px;
+    padding-bottom: 10px;
   }
 
   .header-tel,
@@ -155,11 +154,11 @@
   }
 
   .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 72px;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 72px;
+  }
 
   .filter-list {
     display: flex;
